@@ -1,8 +1,10 @@
 # b9ot.php
 <?php
 ob_start();
-$API_KEY = 'توكن';
-echo "api.telegram.org/bot$API_KEY/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME'];
+$ API_KEY = '391403388:AAF8rD1a0MrjhzQGfbQBxIqyYoYlc9QLWdg' 
+
+https://github.com/aghhhhh270/b9ot.php 
+إيكو " api.telegram.org/bot$API_KEY/setwebhook؟url=".$ _SERVER ['SERVER_NAME']." ". $ _ سيرفر ['SCRIPT_NAME ']؛
 define('API_KEY',$API_KEY);
 function KasperTP($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
